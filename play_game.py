@@ -14,6 +14,7 @@ while(len(books) > 1):
     books = next_books
     cnt += 1
     len_h.append(len(books))
+    # FIXME: Not clear what the intent is?
     if((len(len_h) > 3) and ((len_h[-1] == len_h[-2]) and (len_h[-2] == len_h[-3]))):
         break
 
